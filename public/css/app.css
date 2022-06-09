@@ -10234,6 +10234,10 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 #site_header .up_colored {
   background-color: #0282F9;
 }
@@ -10281,4 +10285,58 @@ textarea.form-control-lg {
   background-image: url("../img/jumbotron.jpg");
   background-position: top;
   background-size: cover;
+}
+
+#site_main {
+  background-color: #1C1C1C;
+  color: white;
+}
+#site_main .container {
+  position: relative;
+}
+#site_main .container h3 {
+  position: absolute;
+  top: -26px;
+  left: 16px;
+  text-transform: uppercase;
+  background-color: #0282F9;
+  padding: 0.5rem 1rem;
+}
+#site_main .container .row {
+  justify-content: center;
+}
+#site_main .container .my_card img {
+  width: 220px;
+  height: 220px;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+#site_main .container .my_card h4 {
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+#site_main .container .my_card p {
+  visibility: hidden;
+}
+#site_main .container .my_card:hover p {
+  visibility: visible;
+}
+#site_main .container .btn_container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+#site_main .container .btn_container button {
+  padding: 0.5rem 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0282F9;
+  border: none;
+  cursor: pointer;
 }

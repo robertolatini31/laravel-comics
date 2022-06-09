@@ -13,6 +13,10 @@ $dc-list-text: #959595;
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 #site_header {
     .up_colored {
         background-color: $dc-primary;
@@ -64,4 +68,65 @@ $dc-list-text: #959595;
     background-image: url('../img/jumbotron.jpg');
     background-position: top;
     background-size: cover;
+}
+
+#site_main {
+    background-color: $dc-main-dark;
+    color: white;
+    
+    .container {
+        position: relative;
+        h3 {
+        position: absolute;
+        top: -26px;
+        left: 16px;
+        text-transform: uppercase;
+        background-color: $dc-primary;
+        padding: 0.5rem 1rem;
+        }
+    
+        .row {
+            justify-content: center;
+        }
+    
+        
+            .my_card {
+                img {
+                    width: 220px;
+                    height: 220px;
+                    aspect-ratio: 1/1;
+                    object-fit: cover;
+                    object-position: top;
+                }
+                h4 {
+                    text-transform: uppercase;
+                    padding: 1rem 0;
+                    font-weight: 500;
+                    font-size: 0.9rem;
+                }
+                p {
+                    visibility: hidden;
+                }
+                &:hover p {
+                    visibility: visible;
+                }
+            }
+            
+        
+        .btn_container {
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+            button {
+                padding: 0.5rem 3rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: white;
+                background-color: $dc-primary;
+                border: none;
+                cursor: pointer;
+            }
+        
+        }
+    }
 }
