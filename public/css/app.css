@@ -10275,3 +10275,10 @@ textarea.form-control-lg {
   border-bottom: 2px solid #0282F9 !important;
   width: 75% !important;
 }
+
+.jumbotron_my {
+  height: 350px;
+  background-image: url("../img/jumbotron.jpg");
+  background-position: top;
+  background-size: cover;
+}
