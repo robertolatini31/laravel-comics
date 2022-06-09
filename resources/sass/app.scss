@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 
-#site_header {
+header {
     .up_colored {
         background-color: $dc-primary;
         span {
@@ -76,7 +76,7 @@ img {
     background-size: cover;
 }
 
-#site_main {
+main {
     background-color: $dc-main-dark;
     color: white;
     
@@ -91,11 +91,6 @@ img {
         padding: 0.5rem 1rem;
         }
     
-        .row {
-            justify-content: center;
-        }
-    
-        
             .my_card {
                 img {
                     width: 220px;
@@ -152,3 +147,26 @@ img {
         object-fit: contain;
     }
 }
+
+
+    .dc_lists_section {
+        background-image: url('../img/dc-logo-bg.png'), url('../img/footer-bg.jpg');
+        background-position: 90% center, center;
+        background-size: 650px, cover;
+        background-repeat: no-repeat;
+        ul {
+            padding: 0!important;
+            margin: 0!important;
+            list-style: none;
+            line-height: 1.2rem;
+            li {  
+                font-size: 0.8rem;
+                a {
+                    text-decoration: none;
+                    color: $dc-list-text;
+                    font-weight: 500;
+                }
+            }
+            
+        }
+    }

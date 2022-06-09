@@ -9,7 +9,7 @@
             <h3 class="current_series">current series</h3>
             <!-- /.current_series -->
             <div class="container_cards pt-5">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 rowc-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
+                <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 rowc-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
                 @forelse($books as $book)
                     <div class="col">  
                         <div class="my_card">
@@ -38,6 +38,7 @@
         <!-- /.container -->
 
         @include('partials.services')
+        @include('partials.menu_section')
     </main>
     
     
