@@ -170,3 +170,17 @@ main {
             
         }
     }
+
+footer {
+    padding: 2rem;
+    background-color: $dc-footer-dark;
+    button {
+        padding: 0.7rem;
+        border: 2px solid $dc-primary;
+        font-weight: 600;
+        background-color: transparent!important;
+    }
+    h3 {
+        color: $dc-primary;
+    }
+}

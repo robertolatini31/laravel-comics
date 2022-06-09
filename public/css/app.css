@@ -10380,3 +10380,17 @@ main .container .btn_container button {
   color: #959595;
   font-weight: 500;
 }
+
+footer {
+  padding: 2rem;
+  background-color: #303030;
+}
+footer button {
+  padding: 0.7rem;
+  border: 2px solid #0282F9;
+  font-weight: 600;
+  background-color: transparent !important;
+}
+footer h3 {
+  color: #0282F9;
+}
