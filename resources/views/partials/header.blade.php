@@ -18,10 +18,10 @@
             <nav>
                 <ul class="m-0 p-0">
                     <li>
-                        <a href="#" class="text-uppercase">characters</a>
+                        <a href="{{route('characters')}}" class="text-uppercase">characters</a>
                     </li>
-                    <li class="active">
-                        <a href="#" class="text-uppercase">comics</a>
+                    <li>
+                        <a href="{{route('home')}}" class="text-uppercase">comics</a>
                     </li>
                     <li>
                         <a href="#" class="text-uppercase">movies</a>

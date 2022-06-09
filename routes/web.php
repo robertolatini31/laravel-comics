@@ -19,4 +19,10 @@ Route::get('/', function () {
     return view('home', compact('books'));
 })->name('home');
 
+Route::get('/characters', function () {
+    $books = config('db.books');
+    //dd($books);
+    return view('characters', compact('books'));
+})->name('characters');
+
 

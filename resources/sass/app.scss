@@ -56,12 +56,6 @@ header {
                 }
             }
         }
-        .active {
-            border-bottom: 4px solid $dc-primary;
-            a {
-                color: $dc-primary;
-            }
-        }
     }
     input {
         border-bottom: 2px solid $dc-primary!important;
@@ -149,7 +143,7 @@ main {
 }
 
 
-    .dc_lists_section {
+.dc_lists_section {
         background-image: url('../img/dc-logo-bg.png'), url('../img/footer-bg.jpg');
         background-position: 90% center, center;
         background-size: 650px, cover;
@@ -169,7 +163,7 @@ main {
             }
             
         }
-    }
+}
 
 footer {
     padding: 2rem;
