@@ -10228,3 +10228,50 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#site_header .up_colored {
+  background-color: #0282F9;
+}
+#site_header .up_colored span {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+#site_header img {
+  max-width: 90px;
+}
+#site_header .col-2, #site_header .col-10, #site_header .logo_img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#site_header nav ul {
+  list-style: none;
+}
+#site_header nav ul li {
+  padding: 3rem 0;
+  margin: 0 0.8rem;
+  display: inline-block;
+  border-bottom: 4px solid transparent;
+}
+#site_header nav ul li a {
+  text-decoration: none;
+  color: #464646;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+#site_header nav ul li:hover {
+  border-color: #0282F9;
+}
+#site_header nav ul li:hover a {
+  color: #0282F9;
+}
+#site_header input {
+  border-bottom: 2px solid #0282F9 !important;
+  width: 75% !important;
+}
