@@ -24,7 +24,7 @@
                         <a href="{{route('home')}}" class="text-uppercase">comics</a>
                     </li>
                     <li>
-                        <a href="#" class="text-uppercase">movies</a>
+                        <a href="{{route('movies')}}" class="text-uppercase">movies</a>
                     </li>
                     <li>
                         <a href="#" class="text-uppercase">tv</a>

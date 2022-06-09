@@ -25,4 +25,10 @@ Route::get('/characters', function () {
     return view('characters', compact('books'));
 })->name('characters');
 
+Route::get('/movies', function () {
+    $books = config('db.books');
+    //dd($books);
+    return view('movies', compact('books'));
+})->name('movies');
+
 
