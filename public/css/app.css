@@ -10275,6 +10275,12 @@ img {
 #site_header nav ul li:hover a {
   color: #0282F9;
 }
+#site_header nav .active {
+  border-bottom: 4px solid #0282F9;
+}
+#site_header nav .active a {
+  color: #0282F9;
+}
 #site_header input {
   border-bottom: 2px solid #0282F9 !important;
   width: 75% !important;

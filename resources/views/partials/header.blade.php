@@ -18,34 +18,34 @@
             <nav>
                 <ul class="m-0 p-0">
                     <li>
-                        <a class="text-uppercase">characters</a>
+                        <a href="#" class="text-uppercase">characters</a>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="text-uppercase">comics</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">comics</a>
+                        <a href="#" class="text-uppercase">movies</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">movies</a>
+                        <a href="#" class="text-uppercase">tv</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">tv</a>
+                        <a href="#" class="text-uppercase">games</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">games</a>
+                        <a href="#" class="text-uppercase">collectibles</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">collectibles</a>
+                        <a href="#" class="text-uppercase">videos</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">videos</a>
+                        <a href="#" class="text-uppercase">fans</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">fans</a>
+                        <a href="#" class="text-uppercase">news</a>
                     </li>
                     <li>
-                        <a class="text-uppercase">news</a>
-                    </li>
-                    <li>
-                        <a class="text-uppercase">shop</a>
+                        <a href="#" class="text-uppercase">shop</a>
                     </li>
                 </ul>
             </nav>

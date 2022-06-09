@@ -56,6 +56,12 @@ img {
                 }
             }
         }
+        .active {
+            border-bottom: 4px solid $dc-primary;
+            a {
+                color: $dc-primary;
+            }
+        }
     }
     input {
         border-bottom: 2px solid $dc-primary!important;
