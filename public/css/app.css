@@ -10346,3 +10346,19 @@ img {
   border: none;
   cursor: pointer;
 }
+
+.services_section {
+  background-color: #0282F9;
+  padding: 3rem 1rem;
+}
+.services_section a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.services_section img {
+  max-width: 60px;
+  aspect-ratio: 1.1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}

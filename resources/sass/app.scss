@@ -136,3 +136,19 @@ img {
         }
     }
 }
+
+.services_section {
+    background-color: $dc-primary;
+    padding: 3rem 1rem;
+    a {
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    
+    img {
+        max-width: 60px;
+        aspect-ratio: 1.1;
+        object-fit: contain;
+    }
+}

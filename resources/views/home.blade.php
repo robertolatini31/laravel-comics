@@ -2,7 +2,9 @@
 
 @section('content')
     <main id="site_main">
+
         @include('partials.jumbotron')
+
         <div class="container">
             <h3 class="current_series">current series</h3>
             <!-- /.current_series -->
@@ -34,6 +36,8 @@
             
         </div>
         <!-- /.container -->
+
+        @include('partials.services')
     </main>
     
     
