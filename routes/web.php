@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $books = config('db.books');
+    //dd($books);
+    return view('home', compact('books'));
 })->name('home');
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+
