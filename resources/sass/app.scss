@@ -188,3 +188,24 @@ footer {
         color: $dc-primary;
     }
 }
+
+.single_book_img_section {
+    height: 100px;
+    background-color: $dc-primary;
+    .type_text,.gallery_text {
+        background-color: #00a9d9;
+    }
+    .type_text {
+        top: 0;
+        left: 0;
+    }
+    .gallery_text {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .container_absolute {
+        top: -250px;
+        left: 0;
+    }
+}
