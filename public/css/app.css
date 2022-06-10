@@ -10419,3 +10419,34 @@ footer h3 {
   top: -250px;
   left: 0;
 }
+
+.description_section .description_section_title {
+  color: #003f5e;
+  margin-left: -11px !important;
+}
+.description_section .bg_dark_green {
+  background-color: #55ba59;
+}
+.description_section .light_green {
+  color: #92ef8d;
+}
+.description_section .border_dark_trasparent {
+  border-color: rgba(0, 0, 0, 0.427) !important;
+}
+.description_section p {
+  margin-left: -11px !important;
+  line-height: 2rem;
+}
+
+.single_book_section_specs {
+  background-color: #f6f6f6;
+  color: #003f5e;
+  border-color: rgba(91, 91, 91, 0.8) !important;
+}
+.single_book_section_specs a {
+  text-decoration: none;
+  color: #00a9d9;
+}
+.single_book_section_specs h6 {
+  font-weight: 400 !important;
+}
