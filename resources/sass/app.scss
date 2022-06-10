@@ -7,6 +7,19 @@ $dc-footer-dark: #303030;
 $dc-nav-text: #464646;
 $dc-list-text: #959595;
 
+.bs_1{
+    border-left: 1px solid;
+} 
+.be_1 {
+    border-right: 1px solid;
+}
+.bb_1 {
+    border-bottom: 1px solid;
+}
+.bt_1 {
+    border-top: 1px solid;
+}
+
 .dc_primary {
     color: $dc-primary;
 }
@@ -251,5 +264,12 @@ footer {
 
 .single_book_section_digital {
     background-color: #f6f6f6;
-    color: #003f5e;
+    color: #a8a8a8;
+    border-color:rgb(234, 234, 234)!important;
+    img {
+        filter: brightness(0.8);
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
 }
