@@ -17,34 +17,34 @@
             <div class="col-8">
             <nav>
                 <ul class="m-0 p-0">
-                    <li>
+                    <li class=" nav_li {{Route::currentRouteName() === 'characters' ? 'my_active' : ''}}">
                         <a href="{{route('characters')}}" class="text-uppercase">characters</a>
                     </li>
-                    <li>
-                        <a href="{{route('home')}}" class="text-uppercase">comics</a>
+                    <li class="nav_li {{Route::currentRouteName() === 'comics' ? 'my_active' : ''}}">
+                        <a href="{{route('comics')}}" class="text-uppercase">comics</a>
                     </li>
-                    <li>
+                    <li class="nav_li {{Route::currentRouteName() === 'movies' ? 'my_active' : ''}}">
                         <a href="{{route('movies')}}" class="text-uppercase">movies</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">tv</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">games</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">collectibles</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">videos</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">fans</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">news</a>
                     </li>
-                    <li>
+                    <li class="nav_li">
                         <a href="#" class="text-uppercase">shop <i class="fa-solid fa-caret-down dc_primary ms-1"></i></a>
                     </li>
                 </ul>

@@ -40,7 +40,7 @@ header {
     nav {
         ul {
             list-style: none;
-            li {
+            .nav_li {
                 a{
                     text-decoration: none;
                     color: $dc-nav-text;
@@ -58,6 +58,12 @@ header {
                 &:hover a {
                     color: $dc-primary;
                 }
+            }
+            .my_active {
+                border-color: $dc-primary!important;
+            }
+            .my_active a {
+                color: $dc-primary!important;
             }
         }
     }
@@ -241,4 +247,9 @@ footer {
     h6 {
         font-weight: 400!important;
     }
+}
+
+.single_book_section_digital {
+    background-color: #f6f6f6;
+    color: #003f5e;
 }
