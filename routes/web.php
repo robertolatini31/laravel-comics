@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    $books = config('db.books');
+    //dd($books);
+    return view('comics', compact('books'));
+})->name('comics');
+
 Route::get('/comics', function () {
     $books = config('db.books');
     //dd($books);
