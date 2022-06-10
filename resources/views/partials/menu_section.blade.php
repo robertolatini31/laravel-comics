@@ -104,6 +104,14 @@
                 <!-- /.col -->
             </div>
             <!-- /.row -->
+            <div class="row w-50 pb-4">
+                <div class="col">
+                    <p>
+                        Al Site Content TM and © 2020 D6 Entertainment unless otherwise <a href="#" class="dc_primary">noted here</a>. All rights reserved.
+                    </p>
+                    <a href="#" class="dc_primary">Cookies Settings</a>
+                </div>
+            </div>
         </div>
         <!-- /.container -->
     </section>

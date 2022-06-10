@@ -10,10 +10,10 @@
             <!-- /.current_series -->
             <div class="container_cards pt-5">
                 <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 rowc-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
-                @forelse($books as $book)
+                @forelse($books as $index => $book)
                     <div class="col">  
                         <div class="my_card">
-                            <a href="#">
+                            <a href="{{route('books_show', $index)}}">
                                 <img src="{{$book['thumb']}}" alt="book_img">
                             </a>
                             <h4>{{$book['series']}}</h4>

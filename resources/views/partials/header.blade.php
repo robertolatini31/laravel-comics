@@ -3,7 +3,7 @@
         <div class="container">
             <div class="d-flex align-items-center justify-content-end p-1 text-white">
                     <span class="text-uppercase me-5">dc power visa&reg;</span>
-                    <span class="text-uppercase">additional dc sites</span>
+                    <span class="text-uppercase">additional dc sites <i class="fa-solid fa-caret-down ms-1"></i></span>
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
                         <a href="#" class="text-uppercase">news</a>
                     </li>
                     <li>
-                        <a href="#" class="text-uppercase">shop</a>
+                        <a href="#" class="text-uppercase">shop <i class="fa-solid fa-caret-down dc_primary ms-1"></i></a>
                     </li>
                 </ul>
             </nav>
@@ -53,7 +53,11 @@
             </div>
             <!--/.navbar_header  -->
             <div class="col-2">
+            <div class="serach_div d-flex align-items-center justify-content-end">
             <input class="form-control border-0 rounded-0 text-end px-0" type="search" placeholder="Search" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
             </div>
             
         </div>

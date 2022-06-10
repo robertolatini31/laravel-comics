@@ -31,4 +31,12 @@ Route::get('/movies', function () {
     return view('movies', compact('books'));
 })->name('movies');
 
-
+Route::get('/books/{id}', function ($id) {
+    $books = config('db.books');
+    if ($id >= 0 && is_numeric($id) && $id < count($books)) {
+        $book = $books[$id];
+        return view('book_show', compact('book'));
+    } else {
+        abort(404);
+    }
+})->name('books_show');

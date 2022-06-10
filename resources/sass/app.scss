@@ -7,6 +7,10 @@ $dc-footer-dark: #303030;
 $dc-nav-text: #464646;
 $dc-list-text: #959595;
 
+.dc_primary {
+    color: $dc-primary;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -57,9 +61,8 @@ header {
             }
         }
     }
-    input {
-        border-bottom: 2px solid $dc-primary!important;
-        width: 75%!important;
+    .serach_div {
+        border-bottom: 2px solid $dc-primary;
     }
 }
 
@@ -162,6 +165,13 @@ main {
                 }
             }
             
+        }
+        p {
+            font-size: 0.8rem;
+            color: $dc-list-text;
+        }
+        a {
+            text-decoration: none;
         }
 }
 

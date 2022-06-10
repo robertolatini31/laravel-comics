@@ -10228,6 +10228,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.dc_primary {
+  color: #0282F9;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10275,9 +10279,8 @@ header nav ul li:hover {
 header nav ul li:hover a {
   color: #0282F9;
 }
-header input {
-  border-bottom: 2px solid #0282F9 !important;
-  width: 75% !important;
+header .serach_div {
+  border-bottom: 2px solid #0282F9;
 }
 
 .jumbotron_my {
@@ -10373,6 +10376,13 @@ main .container .btn_container button {
   text-decoration: none;
   color: #959595;
   font-weight: 500;
+}
+.dc_lists_section p {
+  font-size: 0.8rem;
+  color: #959595;
+}
+.dc_lists_section a {
+  text-decoration: none;
 }
 
 footer {
